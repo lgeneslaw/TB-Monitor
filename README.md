@@ -25,10 +25,12 @@ project.
                              2. Installation
 ************************************************************************
     The TB Monitor app is currently only on Android, so to install it
-simply put the tbmonitor.apk on your android device and install.
+simply put the tbmonitor.apk (found in the App/ folder)on your android
+device and install.
     As for the sanitizer, the only system requirement is to have python
-installed. You can download the sanitizer from github at
-https://github.com/karagam123/Audio-Sanitizer.
+installed. Simply download sanitizer.py (found in the Sanitizer/ folder)
+and run
+    $ python sanitizer.py
 
 ************************************************************************
                           3. Using the framework
@@ -49,9 +51,10 @@ account to login.
 because ultimately this project will be handed off to the team in Peru
 and paired with the recording technology that they have been developing.
     
-    In order to use the Sanitizer on a wav file, the name of the wav file
-must be hard-coded into "Sanitizer.py". The Sanitizer then outputs a wav
-file with a name that can also be hard-coded. To run the sanitizer:
+    The sanitizer is one python file. In order to use the Sanitizer on a
+wav file, the name of the wav filemust be hard-coded into "Sanitizer.py".
+The Sanitizer then outputs a wav file with a name that can also be
+hard-coded. To run the sanitizer:
     $ python sanitizer.py
 
 ************************************************************************
